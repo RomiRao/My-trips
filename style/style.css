@@ -21,18 +21,91 @@ main {
 h1 {
     font-family: 'Geologica', sans-serif;
     font-weight: 700;
+    color: #3E3A34;
 }
 
 .photos-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     max-width: 990px;
+    height: 700px;
     margin: 50px;
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
+    background-image: url(/images/0fdab7d41c2bb0703e117955260a2e71--cork-boards-corks.jpg) ;
+    background-position: center;
+    background-size: contain;
+    border: 5px ridge white;
+    border-radius: 10px;
+    position: relative;
 }
 
+.photo {
+    width: 200px;
+    height: 270px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+}
+
+.image-container {
+    width: 100%;
+    height: 90%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+img {
+    transform: translate(0px,-20px);
+    max-width: 100%;
+}
+
+.athens {
+    left: 40px;
+    top: 30px;
+    transform: rotate(10deg);
+}
+
+.istambul {
+    top: 40px;
+    left: 270px;
+}
+
+.marcelle {
+    top: 40px;
+    right: 270px;
+    transform: rotate(-20deg);
+}
+
+.portofino {
+    bottom: 40px;
+    right: 260px;
+    transform: rotate(10deg);
+}
+
+.napoli {
+    top: 40px;
+    right: 30px;
+    transform: rotate(-5deg);
+}
+
+.rhodes {
+    bottom: 40px;
+    left: 40px;
+    transform: rotate(15deg);
+}
+
+.santorini {
+    bottom: 40px;
+    left: 300px;
+    transform: rotate(-10deg);
+}
+
+/*
 .photo {
     width: 300px;
     height: 400px;
@@ -57,3 +130,4 @@ img {
 figcaption {
     margin: 10px;
 }
+*/
